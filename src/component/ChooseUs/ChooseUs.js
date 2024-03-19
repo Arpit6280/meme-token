@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Followus from "../FollowUs/Followus";
 import { useScroll, motion, useTransform } from "framer-motion";
 import u3 from "../../images/uranus3.png";
 import u4 from "../../images/uranus4.png";

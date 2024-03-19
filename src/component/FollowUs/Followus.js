@@ -6,7 +6,6 @@ import insta from "../../images/instagram-icon.png";
 import lnk from "../../images/linkedin-icon.png";
 import twt from "../../images/twitter-icon.png";
 import whtsp from "../../images/whatsapp-icon.png";
-// import fb from '../../images/facebook-icon.png'
 
 function Followus() {
   return (

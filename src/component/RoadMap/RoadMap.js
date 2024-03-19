@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import Followus from "../FollowUs/Followus";
+
 import { useScroll, motion, useTransform } from "framer-motion";
 import BuyToken from "./BuyToken";
 
@@ -37,7 +37,6 @@ function RoadMap() {
               <span className="text-2xl md:text-4xl text-white">01</span>
             </div>
             <div>
-              {/* <h3 className="  text-2xl text-white font-bold mb-4">STEP 1-</h3> */}
               <p className="text-base  leading-relaxed">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Ratione, aspernatur, molestias maxime quae, a ad illo sit at
@@ -69,7 +68,6 @@ function RoadMap() {
               <span className="text-2xl md:text-4xl text-white">03</span>
             </div>
             <div>
-              {/* <h3 className="text-2xl text-white font-bold mb-4">STEP 3-</h3> */}
               <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloremque quisquam, numquam dignissimos nihil, ducimus
@@ -81,7 +79,6 @@ function RoadMap() {
           </div>
         </div>
       </div>
-      {/* <Followus /> */}
       <BuyToken />
     </motion.div>
   );
