@@ -1,3 +1,29 @@
+* {
+  /* cursor: none; */
+}
+.App {
+  background-color: #070c38;
+  overflow-x: hidden;
+}
+
+.moving-text:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .moving-text {
+    animation: marquee 40s linear infinite;
+  }
+}
 header {
   position: relative;
   top: 4rem;
@@ -28,7 +54,7 @@ header {
   justify-content: center;
   background: var(
     --Gradient,
-    linear-gradient(270deg, #00fff0 -5.84%, #34d2ee 90.78%)
+    linear-gradient(270deg, #060670, -5.84%, #0e549f 90.78%)
   );
   width: 128px;
 }
@@ -36,7 +62,7 @@ header {
 @media (max-width: 575px) {
   .phaseNumber {
     padding-inline: 0;
-    padding-block: 80px 0px;
+    padding-block: 75px 0px;
     clip-path: polygon(51% 65%, 100% 50%, 100% 77%, 52% 100%, 0 81%, 0 51%);
     margin-bottom: 10px;
     width: 100%;
@@ -48,6 +74,6 @@ header {
   justify-content: space-around;
 }
 
-P {
+/* P {
   color: white;
-}
+} */

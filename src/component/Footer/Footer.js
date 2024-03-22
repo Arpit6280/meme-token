@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className=" text-white mt-8">
+    <footer className=" text-white mt-4 mb-4">
       <hr />
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 sm:px-8 px-5 py-8">
         <div>
@@ -18,16 +19,16 @@ const Footer = () => {
             <div className="block sm:flex justify-center">
               <ul>
                 <li className="hover:text-sky-300 hover:underline  py-[2px]">
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="hover:text-sky-300 hover:underline  py-[2px]">
-                  <a href="about">About US</a>
+                  <Link to="about">About US</Link>
                 </li>
                 <li className="hover:text-sky-300 hover:underline  py-[2px]">
-                  <a href="contact">Contact Us</a>
+                  <Link to="contact">Contact Us</Link>
                 </li>
                 <li className="hover:text-sky-300 hover:underline  py-[2px]">
-                  <a href="#">Term & Condition</a>
+                  <Link href="#">Term & Condition</Link>
                 </li>
               </ul>
             </div>
@@ -59,7 +60,7 @@ const Footer = () => {
       </div>
       <div
         className="flex justify-center
-      text-center pt-2 text-gray-400 text-sm pb-8"
+      text-center pt-2 text-white text-sm pb-8"
       >
         <span>© 2024 Appy. All rights reserved. Made By Arpit</span>
       </div>

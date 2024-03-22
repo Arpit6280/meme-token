@@ -2,11 +2,11 @@ import React from "react";
 import u1 from "../../images/uranus1.jpeg";
 function AboutUs() {
   return (
-    <div className="py-4 px-10 mt-16 bg-black text-white">
+    <div className="py-4 px-10 mt-16 bg-[#070c38] text-white">
       <h1 className="text-center text-6xl font-bold ">ABOUT US</h1>
       <div className="flex flex-col-reverse md:flex-row gap-8">
-        <div className="w-full md:w-[45%] :w-2/5 pt-10">
-          <img src={u1} alt="" />
+        <div className="w-full md:w-[45%] :w-2/5 pt-10 ">
+          <img src={u1} alt="" className="rounded-full" />
         </div>
         <div className="w-full md:w-[55%] :w-3/5 pt-10 xl:pt-14">
           <p className="leading-8 md:leading-tight lg:leading-8">

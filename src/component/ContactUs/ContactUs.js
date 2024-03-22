@@ -4,7 +4,7 @@ import contact from "../../images/contact0.jpg";
 function ContactUs() {
   return (
     <div className="mt-16">
-      <div class="flex items-center justify-center min-h-screen bg-black">
+      <div class="flex items-center justify-center min-h-screen bg-[#070c38]">
         <div class="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0">
           <div class="flex flex-col justify-center p-8 md:p-14">
             <span class="mb-3 text-4xl font-bold"> Contact Us </span>
